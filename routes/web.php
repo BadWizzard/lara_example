@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/playoff', [PlayoffController::class, 'build']);
+Route::get('/playoff', [PlayoffController::class, 'show']);
